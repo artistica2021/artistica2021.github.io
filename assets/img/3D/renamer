@@ -1,0 +1,5 @@
+x=1
+for f in *.jpg; do 
+    mv "$f" "$x.jpg"  
+    let x=$x+1
+done
